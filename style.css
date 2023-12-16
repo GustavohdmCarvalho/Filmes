@@ -1,26 +1,39 @@
 * { 
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     vertical-align: baseline;
     list-style: none;
 }
 
 header {
-    margin: 0 auto;
+    align-items: center;
+    padding: 4%; 
     background-color: black;
-    padding: 3%;
     overflow: hidden;
 }
 
-.info-header {
+#header-itens {
     display: flex;
-    justify-content: end;
+    align-items: center;
+}
+
+#info-header { 
+    display: flex;
+    margin-right: 1rem; 
 }
 
 .content-header {
+    margin-right: 2em;
+}
+
+.content-header:hover a {
+    color: purple;
+    transition: 0.5s;
+}
+
+.content-header a {
+    text-decoration: none;
     color: white;
-    display: flex;
-    text-wrap: nowrap;
 }
 
 .primeira-section {
@@ -30,9 +43,130 @@ header {
 }
 
 .txt-primeiro {
-    margin: 0 auto;
-    width: 80%;
+    width: 85%;
     text-align: center;
     color: white;
-
 }
+
+.txt-primeiro h1 {
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+
+.txt-primeiro p {
+    margin-bottom: 4%;
+    font-size: 1.5em;
+}
+
+button {
+    width: 15%;
+    height: 5vh;
+    border-radius: 1vh;
+    border-color: white;
+    background-color: gray;
+}
+
+button:hover {
+    background-color: white;
+    border-color: gray;
+    transition: 0.8s;
+}
+
+.img-div {
+    background-image: url(imagens/Background2.png);
+    padding: 5%; 
+    background-position: center;
+    background-size: auto;
+}
+
+#content-segunda {
+    display: flex;
+}
+
+#content-segunda img {
+    border-radius: 1vh;
+    margin-left: 10em;
+    width: 40%;
+    height: 75vh;
+}
+
+.segunda-section {
+    background-color: rgba(158, 158, 158, 0.856);
+    padding: 10%;
+}
+
+.txt-segundo h1 {
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+
+.txt-segundo p {
+    margin-bottom: 4%;
+    font-size: 2em;
+    color: white;
+}
+
+#content-terceira {
+    display: flex;
+}
+
+#content-terceira img {
+    border-radius: 1vh;
+    margin-left: 10em;
+    width: 40%;
+    height: 50vh;
+}
+
+.terceira-section {
+    background-color: rgba(158, 158, 158, 0.856);
+    padding: 10%;
+}
+
+.txt-terceira h1 {
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+
+.txt-terceira p {
+    margin-bottom: 4%;
+    font-size: 2em;
+    color: white;
+}
+
+#content-terceira {
+    display: flex;
+}
+
+.quarta-section {
+    background-image: url(imagens/Background.svg);
+    padding: 20%;
+    background-position: center;
+    background-size: cover;
+}
+
+.quarta-section h1 {
+    color: white;
+    text-align: center;
+    font-size: 6em;
+    font-weight: normal;
+}
+
+footer {
+    padding: 10vh;
+    background-color: gray;
+}
+
+.list-footer{
+    display: flex;
+    align-items: center;
+ }
+
+ .item-menu-footer {
+    margin-top: 3%; 
+    display: flex;
+ }
+
+ .item-menu-footer p {
+    margin-left: 0.5em;
+ }
+ 
