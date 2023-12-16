@@ -1,0 +1,38 @@
+* { 
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+header {
+    margin: 0 auto;
+    background-color: black;
+    padding: 3%;
+    overflow: hidden;
+}
+
+.info-header {
+    display: flex;
+    justify-content: end;
+}
+
+.content-header {
+    color: white;
+    display: flex;
+    text-wrap: nowrap;
+}
+
+.primeira-section {
+    background-color: rgba(158, 158, 158, 0.856);
+    text-align: center;
+    padding: 20%;
+}
+
+.txt-primeiro {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+
+}
