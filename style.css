@@ -91,7 +91,7 @@ button:hover {
 }
 
 .segunda-section {
-    background-color: rgba(158, 158, 158, 0.856);
+    background-color: rgba(158, 158, 158, 0.74);
     padding: 10%;
 }
 
@@ -103,7 +103,7 @@ button:hover {
 .txt-segundo p {
     margin-bottom: 4%;
     font-size: 2em;
-    color: white;
+    color: gray;
 }
 
 #content-terceira {
@@ -118,7 +118,7 @@ button:hover {
 }
 
 .terceira-section {
-    background-color: rgba(158, 158, 158, 0.856);
+    background-color: rgba(158, 158, 158, 0.74);
     padding: 10%;
 }
 
@@ -130,7 +130,7 @@ button:hover {
 .txt-terceira p {
     margin-bottom: 4%;
     font-size: 2em;
-    color: white;
+    color: gray;
 }
 
 #content-terceira {
